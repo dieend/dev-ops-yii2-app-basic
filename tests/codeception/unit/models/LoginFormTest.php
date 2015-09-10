@@ -33,8 +33,8 @@ class LoginFormTest extends TestCase
     public function testLoginWrongPassword()
     {
         $model = new LoginForm([
-            'username' => 'demo',
-            'password' => 'wrong_password',
+            'username' => 'admin',
+            'password' => 'admin',
         ]);
 
         $this->specify('user should not be able to login with wrong password', function () use ($model) {
