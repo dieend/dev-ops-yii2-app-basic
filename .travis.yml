@@ -54,6 +54,6 @@ deploy:
   skip_cleanup: true
   strategy: api
   buildpack: https://github.com/ddollar/heroku-buildpack-multi
-  app: intense-forest-7815
+  app: rocky-woodland-4786
   on:
     php: 5.5
